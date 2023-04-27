@@ -9,6 +9,7 @@ import venues from "../../Assets/Projects/venues.gif";
 import bikerz from"../../Assets/Projects/e-bikerz.gif";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
