@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import venues from "../../Assets/Projects/venues.gif";
+import bikerz from"../../Assets/Projects/e-bikerz.gif";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -29,6 +30,16 @@ function Projects() {
               description="Chat Room For Teachers to share Infos with Students."
               ghLink="https://github.com/sanju2k3/VENUES-room-chater"
               demoLink="On Progress..."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bikerz}
+              isBlog={false}
+              title="APP FOR E-BIKE"
+              description="Won Future Award under Inovation catagory on ISIE_e-bike INDIA"
+              ghLink="hhttps://github.com/sanju2k3/e-Bikerz"
+              demoLink="Won Future Award under Inovation catagory on ISIE_e-bike INDIA"
             />
           </Col>
 
