@@ -7,8 +7,9 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import venues from "../../Assets/Projects/venues.gif";
 import bikerz from"../../Assets/Projects/e-bikerz.gif";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import farmer from"../../Assets/Projects/farmer.gif";
+
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -28,7 +29,7 @@ function Projects() {
               title="VENUES BIT"
               description="Chat Room For Teachers to share Infos with Students."
               ghLink="https://github.com/sanju2k3/VENUES-room-chater"
-              demoLink="On Progress..."
+              demoLink="https://www.linkedin.com/posts/sanjay-a-r-1044ba218_reactjs-html-css-activity-6983065032066564097-j327?utm_source=share&utm_medium=member_desktop."
             />
           </Col>
           <Col md={4} className="project-card">
@@ -36,11 +37,22 @@ function Projects() {
               imgPath={bikerz}
               isBlog={false}
               title="APP FOR E-BIKE"
-              description="Won Future Award under Inovation catagory on ISIE_e-bike INDIA"
+              description="Won Future Award under Innovation category on ISIE_e-bike INDIA"
               ghLink="hhttps://github.com/sanju2k3/e-Bikerz"
-              demoLink="Won Future Award under Inovation catagory on ISIE_e-bike INDIA"
+              demoLink="https://www.linkedin.com/posts/sanjay-a-r-1044ba218_isieindia-team-teamwork-activity-7055985354075471872-ANuw?utm_source=share&utm_medium=member_desktop"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={farmer}
+              isBlog={false}
+              title="FARMER AND CONSUMER INTRACTION APP"
+              description="Acchieved On Inter college hacathon named BIO-HACKS 2023"
+              ghLink="https://github.com/sanju2k3/FARMER-AND-CONSUMER-INTRACTION-APP"
+              demoLink="https://www.linkedin.com/posts/sanjay-a-r-1044ba218_student-androiddeveloper-androiddevelopment-activity-7040426493130248192-gIbN?utm_source=share&utm_medium=member_desktop"
+            />
+          </Col>
+         
 
          
           
